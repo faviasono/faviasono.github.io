@@ -1,5 +1,5 @@
 /**
-* Template Name: MyResume - v2.1.0
+* Template Name: MyResume - v2.0.0
 * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
@@ -32,9 +32,9 @@
   // Smooth scroll for the navigation menu and links with .scrollto classes
   $(document).on('click', '.nav-menu a, .scrollto', function(e) {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+      e.preventDefault();
       var target = $(this.hash);
       if (target.length) {
-        e.preventDefault();
 
         var scrollto = target.offset().top;
 
@@ -52,19 +52,6 @@
           $('.mobile-nav-toggle i').toggleClass('icofont-navigation-menu icofont-close');
         }
         return false;
-      }
-    }
-  });
-
-  // Activate smooth scroll on page load with hash links in the url
-  $(document).ready(function() {
-    if (window.location.hash) {
-      var initial_nav = window.location.hash;
-      if ($(initial_nav).length) {
-        var scrollto = $(initial_nav).offset().top;
-        $('html, body').animate({
-          scrollTop: scrollto
-        }, 1500, 'easeInOutExpo');
       }
     }
   });
@@ -138,7 +125,7 @@
     offset: '80%'
   });
 
-  // Init AOS
+  // AOS function
   function aos_init() {
     AOS.init({
       duration: 1000,
