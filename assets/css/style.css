@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   right: 15px;
   bottom: 15px;
-  background: #0563bb;
+  background: #006400;
   color: #fff;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .back-to-top:hover {
   color: #fff;
-  background: #0678e3;
+  background: #228B22;
   transition: background 0.2s ease-in-out;
 }
 
@@ -159,13 +159,13 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: flex;
   align-items: center;
-  color: #45505b;
+  color: #fff;
   padding: 10px 18px;
   margin-bottom: 8px;
   transition: 0.3s;
   font-size: 15px;
   border-radius: 50px;
-  background: #f2f3f5;
+  background: #008000;
   height: 56px;
   width: 100%;
   overflow: hidden;
@@ -178,7 +178,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-menu a span {
   padding: 0 5px 0 7px;
-  color: #45505b;
+  color: #228B22;
 }
 
 @media (min-width: 992px) {
@@ -193,7 +193,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
   color: #fff;
-  background: #0563bb;
+  background: #228B22;
 }
 
 .nav-menu a:hover span, .nav-menu .active > a span, .nav-menu li:hover > a span {
@@ -247,7 +247,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top right no-repeat;
+  background: url("../img/me.jpg") top right no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -284,7 +284,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero p span {
-  color: #0563bb;
+  color: #008000;
   letter-spacing: 1px;
 }
 
@@ -302,7 +302,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .social-links a:hover {
-  color: #0563bb;
+  color: #008000;
 }
 
 @media (max-width: 992px) {
@@ -360,7 +360,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #0563bb;
+  background: #008000;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -390,7 +390,7 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 2px;
-  color: #0563bb;
+  color: #008000;
 }
 
 .about .content p:last-child {
@@ -528,7 +528,7 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #0563bb;
+  border: 2px solid #008000;
 }
 
 /*--------------------------------------------------------------
@@ -908,7 +908,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #0563bb;
+  color: #008000;
   float: left;
   width: 44px;
   height: 44px;
@@ -940,7 +940,7 @@ section {
 }
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #0563bb;
+  background: #228B22;
   color: #fff;
 }
 
@@ -964,7 +964,7 @@ section {
 .contact .php-email-form .error-message {
   display: none;
   color: #fff;
-  background: #ed3c0d;
+  background: #228B22;
   text-align: left;
   padding: 15px;
   font-weight: 600;
@@ -977,7 +977,7 @@ section {
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #18d26e;
+  background: #228B22;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -997,7 +997,7 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 3px solid #228B22;
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
@@ -1018,7 +1018,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #0563bb;
+  background: #228B22;
   border: 0;
   padding: 10px 35px;
   color: #fff;
@@ -1027,7 +1027,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #0678e3;
+  background: #228B22;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1144,7 +1144,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #0563bb;
+  background: #228B22;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1157,7 +1157,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #0678e3;
+  background: #228B22;
   color: #fff;
   text-decoration: none;
 }
