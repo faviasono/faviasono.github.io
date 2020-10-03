@@ -1,3 +1,0 @@
-User-agent: *
-Disallow:
-Sitemap: https://lucascott.github.io/sitemap.xml

@@ -1,5 +1,5 @@
 /**
-* Template Name: MyResume - v2.0.0
+* Template Name: MyResume - v2.1.0
 * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
@@ -935,11 +935,11 @@ section {
   color: #728394;
 }
 
-.contact .info .detail:not(:first-child) {
+.contact .info .email, .contact .info .phone {
   margin-top: 40px;
 }
 
-.contact .info .detail:hover i {
+.contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
   background: #0563bb;
   color: #fff;
 }
@@ -965,20 +965,22 @@ section {
   display: none;
   color: #fff;
   background: #ed3c0d;
-  text-align: center;
+  text-align: left;
   padding: 15px;
   font-weight: 600;
-  border-radius: 8px;
+}
+
+.contact .php-email-form .error-message br + br {
+  margin-top: 25px;
 }
 
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #1cbd66;
+  background: #18d26e;
   text-align: center;
   padding: 15px;
   font-weight: 600;
-  border-radius: 8px;
 }
 
 .contact .php-email-form .loading {
@@ -1166,30 +1168,4 @@ section {
 
 #footer .credits {
   font-size: 13px;
-}
-
-
-/*
-CUSTOM CSS
-*/
-
-#about-role {
-  padding-top: 1em 
-}
-
-#about-quote {
-  padding-bottom: 1em 
-}
-
-.btn-primary {
-  background: #0563bb;
-  border: 0;
-  padding: 10px 35px;
-  color: #fff;
-  transition: 0.4s;
-  border-radius: 50px;
-}
-
-.btn-primary:hover {
-  background: #0678e3;
 }
