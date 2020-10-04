@@ -26,6 +26,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -1017,7 +1018,9 @@ section {
   padding: 10px 12px;
 }
 
-.contact .php-email-form input[type="submit"] {
+
+
+.contact .php-email-form button[type="submit"] {
   background: #228B22;
   border: 0;
   padding: 10px 35px;
@@ -1027,7 +1030,7 @@ section {
 }
 
 
-.contact .php-email-form input[type="submit"]:hover {
+.contact .php-email-form button[type="submit"]:hover {
   background: #228B22;
 }
 
