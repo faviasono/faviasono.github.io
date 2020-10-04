@@ -22,7 +22,7 @@
   $subject_mail = $_POST['subject'];
   $body = $_POST['message'];
 
-  mail($receiving_email_address,$subject_mail,$body )
+  mail($receiving_email_address,$subject_mail,$body)
 
 /*
 
