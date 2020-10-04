@@ -14,11 +14,11 @@ body {
 }
 
 a {
-  color: #0563bb;
+  color: #006400;
 }
 
 a:hover {
-  color: #067ded;
+  color: #228B22;
   text-decoration: none;
 }
 
@@ -165,7 +165,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
   font-size: 15px;
   border-radius: 50px;
-  background: #008000;
+  background: #006400;
   height: 56px;
   width: 100%;
   overflow: hidden;
@@ -226,7 +226,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #45505b;
+  color: #006400;
 }
 
 .mobile-nav-active {
@@ -238,7 +238,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-active .mobile-nav-toggle i {
-  color: #0563bb;
+  color: #fff;
 }
 
 /*--------------------------------------------------------------
